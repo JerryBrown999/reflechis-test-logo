@@ -1,4 +1,4 @@
-<img src="./imgs/Réfléchis-store-logo.svg" title="test logo" alt="test logo">
+<img src="/imgs/Réfléchis-store-logo.svg" title="test logo" alt="test logo">
 
 # Réfléchis Test Logo
 ---
@@ -11,6 +11,8 @@ I used 'Aramis Italic' from Digital Graphic Labs as the font for the store name 
 In order to be able to embed the font so font data would not be lost when used as src for img tag I used this utility: https://github.com/BTBurke/svg-embed-font.
 
 The scaling works fine here but this endeavor turns out to be moot for Wordpress. Evidently SVG files pose a security risk (embedded text?) so had to be converted to png for them.
+
+BTW - I see the embedded font is ignored in the SVG embedded in this repo README. Oh well SVG still a work in progress.
 
 Save for future reference.
 
