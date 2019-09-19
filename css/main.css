@@ -1,0 +1,36 @@
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    /* logo vars */
+    --logo-base-width: 230;
+    --logo-base-height: 100;
+    --logo-base-wh-ratio: 2.3;
+    --logo-hdr-pct-width: 40%;
+}
+body {
+    height: 100vh;
+    min-width: 320px;
+    min-height: 320px;
+    background: linear-gradient(#fefefe, #dedede);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#store-header {
+    width: 100%;
+}
+#reflechis-logo-wrap {
+    display: block;
+    position: absolute;
+    top: 4vmax;
+    right: 6vmax;
+    width: var(--logo-hdr-pct-width);
+    height: calc(var(--logo-hdr-pct-width)*var(--logo-base-wh-ratio))px;
+}
+#reflechis-logo {
+    width: 100%;
+    height: 100%;    
+}
+
